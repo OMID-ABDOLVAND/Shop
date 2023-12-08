@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from catalog.serializers import CategorySerializer
+from catalog.serializers.front import CategorySerializer
 from catalog.models import Category
 
 
